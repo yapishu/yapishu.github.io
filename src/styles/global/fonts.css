@@ -13,3 +13,11 @@
   font-display: swap;
   src: local(''), url('/fonts/SilkSerif-Light.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: 'Crimson';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''), url('/fonts/CrimsonText-Regular.ttf') format('ttf');
+}

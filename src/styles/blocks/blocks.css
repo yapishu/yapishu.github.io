@@ -15,10 +15,6 @@
   font-weight: bold;
 }
 
-.hero a:hover {
-  text-decoration: underline;
-}
-
 .features {
   --gutter: var(--space-l);
 }

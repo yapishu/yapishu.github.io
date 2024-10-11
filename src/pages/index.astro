@@ -4,44 +4,50 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="reid scoggin">
   <main>
-    <article class="region prose wrapper hero">
-      <h1>reid scoggin</h1>
+    <article class="prose grid wrapper">
+      <article class="region prose wrapper hero header">
+        <div class="header-text">
+          <h1>reid scoggin</h1>
 
-      <h2>
-        🇨🇱* Texas-native SRE, full-stack developer and founder
-      </h2>
+          <h2>
+            Texas-native SRE, full-stack developer and founder
+          </h2>
+        </article>
+      </div>
+      <div class="header-image"><img src="images/reid24.png"></div>
     </article>
 
     <article class="region prose wrapper">
       <ul role="list" class="grid features">
         <li class="flow">
-          <h3>infrastructure</h3>
+          <h3>infra generalist</h3>
           <p>
-            Provisioning and managing cloud Kubernetes infrastructure, declarative IaC gitops, CI/CD, monitoring, and scaleable systems. Experienced with AWS and GCP, but I prefer to run things myself. I can design that deployment.
+            Provisioning and managing cloud Kubernetes infrastructure, declarative IaC gitops, CI/CD, monitoring, and scaleable systems. Experienced with AWS and GCP. Linux-enjoyer. 
           </p>
         </li>
 
         <li class="flow">
           <h3>software</h3>
           <p>
-            Experienced writing bespoke web application backends and internal tooling & automations with a preference for Golang, as well as experience developing modern JS web application frameworks like Vue and Svelte. I can implement that feature.
+            Experienced writing sophisticated web application backends, and administrative tooling & automations with a preference for Golang; experience developing with reactive JS web application frameworks like Vue and Svelte.
           </p>
         </li>
 
         <li class="flow">
           <h3>hardware</h3>
           <p>
-            Designing and deploying colocated or on-prem hardware configurations, including networking, storage, and compute. Cofounded a consumer hardware <a href="https://nativeplanet.io">company</a> with my friends. I can build that rack.
+            Designing and deploying colocated or on-prem hardware configurations, including networking, storage, and compute. Cofounded and coded for a special-purpose consumer hardware <a href="https://nativeplanet.io">company</a> with my friends.
           </p>
         </li>
 
         <li class="flow">
           <h3>digital freedom</h3>
           <p>
-            My interests and preferences center around tools that augment individual agency; in particular, I have spent several years focused on building on and with <a href="https://urbit.org">Urbit</a>, a novel computer architecture and software stack designed to enable data ownership and computational self-sovereignty. I currently work on the hosting team for <a href="https://tlon.io">Tlon Corporation</a>. I can learn that system.
+            I've spent several years focused on building on and with <a href="https://urbit.org">Urbit</a>, a novel computer architecture and software stack designed to enable data ownership and computational self-sovereignty. I work on the hosting team for <a href="https://tlon.io">Tlon Corporation</a>.
           </p>
         </li>
-        <li>
+
+        <li class="flow">
           <h3>online</h3>
           <p><code>~sitful-hatred</code></p>
           <p><a href="https://github.com/yapishu">Github</a></p>
@@ -51,7 +57,6 @@ import Layout from '../layouts/Layout.astro';
     </article>
 
     <footer class="region prose wrapper">
-      <p class="footer-text">*I know, we don't have a Texan flag emoji yet</p>
     </footer>
   </main>
 </Layout>

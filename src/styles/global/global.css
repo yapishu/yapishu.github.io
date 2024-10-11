@@ -49,15 +49,15 @@ h2,
 h3 {
   line-height: var(--line-height-tight);
   letter-spacing: var(--tracking-l);
-  max-width: 24ch;
+  max-width: 16ch;
 }
 
 h1 {
-  font-size: var(--size-step-5);
+  font-size: var(--size-step-3);
 }
 
 h2 {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-2);
 }
 
 h3 {
@@ -110,6 +110,7 @@ svg {
 
 a {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 a:hover {

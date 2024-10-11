@@ -73,6 +73,35 @@
   font-family: var(--font-base);
 }
 
+.centered-box {
+  font-family: monospace;
+  border: 1px solid; 
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-l);
+}
+
+.header-text {
+  flex: 1;
+  max-width: 60%;
+}
+
+.header-image img {
+  height: auto;
+  display: inline-block;
+}
+
+
 /* === FOR DEBUGGING PURPOSES ONLY! === */
 /*
 * {
