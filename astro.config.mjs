@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-cube.vercel.app/',
+  site: 'https://yapishu.github.io/',
+  base: '',
   integrations: [sitemap()],
 });
