@@ -2,69 +2,42 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="reid scoggin">
-  <main>
-    <article class="prose grid wrapper">
-      <article class="region prose wrapper hero header">
-        <div class="header-text">
-          <h1>reid scoggin</h1>
+<Layout title="Reid Scoggin — Generalist symbol manipulator">
+  <main class="homepage">
+    <div class="site-shell">
+      <div class="rule rule-top" aria-hidden="true"></div>
 
-          <h2>
-            Texas-native SRE, full-stack developer and founder
-          </h2>
-        </article>
-      </div>
-      <div class="header-image"><img src="images/reid24.png"></div>
-    </article>
+      <header class="hero-card">
+        <img src="/images/reid-header.png" alt="Generalist symbol manipulator. Reid Scoggin, Austin, Texas, USA." />
+      </header>
 
-    <article class="region prose wrapper">
-      <ul role="list" class="grid features">
+      <nav class="links" aria-label="Elsewhere online">
+        <a class="link-item" href="https://github.com/yapishu" target="_blank" rel="noreferrer">
+          <span class="link-icon" aria-hidden="true">GH</span>
+          <span>GitHub</span>
+        </a>
+        <a class="link-item" href="https://x.com/sitful_hatred" target="_blank" rel="noreferrer">
+          <span class="link-icon" aria-hidden="true">X</span>
+          <span>X</span>
+        </a>
+        <a class="link-item" href="https://nativeplanet.io" target="_blank" rel="noreferrer">
+          <span class="link-icon" aria-hidden="true">NP</span>
+          <span>NativePlanet.io</span>
+        </a>
+        <div class="link-item">
+          <span class="link-icon" aria-hidden="true">S</span>
+          <span>Signal: @reid.32</span>
+        </div>
+        <div class="link-item">
+          <span class="link-icon" aria-hidden="true">~</span>
+          <span>~sitful-hatred</span>
+        </div>
+      </nav>
 
-        <li class="flow">
-          <h3>digital freedom</h3>
-          <p>
-            I've spent several years focused on building on and with <a href="https://urbit.org">Urbit</a>, a novel computer architecture and software stack designed to enable data ownership and computational self-sovereignty. I work on the hosting team at <a href="https://tlon.io">Tlon Corporation</a>.
-          </p>
-        </li>
-
-        <li class="flow">
-          <h3>infra generalist</h3>
-          <p>
-            Provisioning and managing cloud Kubernetes infrastructure, declarative IaC gitops, CI/CD, monitoring, and scaleable systems. Experienced with AWS and GCP. Linux-enjoyer. 
-          </p>
-        </li>
-
-        <li class="flow">
-          <h3>software</h3>
-          <p>
-            Experienced writing sophisticated full stack web applications, and administrative tooling & automations; years of experience writing Go, Haskell, Rust, myriad FE frameworks.
-          </p>
-        </li>
-
-        <li class="flow">
-          <h3>hardware</h3>
-          <p>
-            Designing and deploying colocated or on-prem hardware configurations, including networking, storage, and compute. Cofounded and coded for a special-purpose consumer hardware <a href="https://nativeplanet.io">company</a> with my friends; wrote a bunch of tooling, infra, and from-scratch <a href="https://nockster.com" target="_blank">hardware wallet</a> for a novel ZKPoW blockchain with said friends. 
-          </p>
-        </li>
-
-        <li class="flow">
-          <h3>online</h3>
-          <p>
-            <code>~sitful-hatred</code><br>
-            <a href="https://github.com/yapishu">Github</a><br>
-            <a href="https://x.com/sitful_hatred">X</a><br>
-          </p>
-        </li>
-
-        <li class="flow">
-          <h3>offline</h3>
-            <p>I live in Austin, Texas with my wife, and spent most of my life in the DFW metro.
-            </li>
-      </ul>
-    </article>
-
-    <footer class="region prose wrapper">
-    </footer>
+      <div class="rule rule-bottom" aria-hidden="true"></div>
+      <footer class="media-notice">
+        <img src="/images/motizuki-media-notice.gif" alt="Media-use notice" />
+      </footer>
+    </div>
   </main>
 </Layout>

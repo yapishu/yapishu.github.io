@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Crimson';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/CrimsonText-Regular.ttf') format('truetype');
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: #ffff00;
+  background: #4f78e8 url('/images/motizuki-blue-background.gif') repeat;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.homepage {
+  box-sizing: border-box;
+  min-height: 100vh;
+  width: 730px;
+  margin: 0;
+  padding: 19px 0 26px 27px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-shell {
+  width: min(100%, 675px);
+  margin: 0 auto;
+}
+
+.rule {
+  height: 20px;
+  border: 2px solid #f8f8f8;
+  border-radius: 2px;
+  background:
+    linear-gradient(#d9e2ff, #ffffff 15%, #858585 24%, #fff 32%, #373737 48%, #101010 54%, #4c4c4c 75%, #e8e8e8 100%);
+  box-shadow: 0 0 0 1px #395aa1, inset 0 0 0 2px #151515;
+}
+
+.rule-top { margin: 0 18px 18px; }
+.rule-bottom { margin-top: 32px; height: 10px; }
+
+.hero-card {
+  width: 675px;
+  height: 408px;
+}
+
+.hero-card img { display: block; width: 675px; height: 408px; }
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 13px 76px;
+  margin: 70px 23px 0;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+  color: #ffff00;
+  font-size: clamp(1.55rem, 3.4vw, 2.3rem);
+  line-height: .95;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #17378b;
+}
+
+.link-icon {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  margin-right: 15px;
+  border: 2px outset #f2f2f2;
+  border-radius: 11px;
+  color: #f9ed56;
+  background: linear-gradient(135deg, #2d4da5, #798de0 52%, #21347d);
+  box-shadow: 1px 1px 3px #153175;
+  font-family: Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: bold;
+  text-shadow: 1px 1px #14286b;
+}
+
+.link-item:hover,
+.link-item:focus-visible { color: #fff; text-decoration: underline; }
+.link-item:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+
+.media-notice {
+  width: min(100%, 463px);
+  margin: 46px auto 0;
+}
+
+.media-notice img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 560px) {
+  .homepage { width: 100%; padding: 14px 17px 20px; }
+  .site-shell { width: 100%; }
+  .hero-card, .hero-card img { width: 100%; height: auto; }
+  .links { grid-template-columns: 1fr; gap: 13px; margin-top: 48px; }
+  .link-item { min-height: 45px; }
+  .link-icon { width: 45px; height: 45px; }
+}
