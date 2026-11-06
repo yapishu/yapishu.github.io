@@ -114,4 +114,5 @@ body {
   .links { grid-template-columns: 1fr; gap: 13px; margin-top: 48px; }
   .link-item { min-height: 45px; }
   .link-icon { width: 45px; height: 45px; }
+  .link-icon-swps { font-size: .85rem; }
 }
